@@ -33,7 +33,7 @@ adversary tradecraft and defensive investigations.
 
             {% if collection.docs.size > 0 %}
             <ul>
-                {% assign docs = collection.docs | sort: "title" %}
+                {% assign docs = collection.docs | sort: "weight" %}
                 {% for doc in docs %}
                 <li>
                     <a href="{{ doc.url }}">
