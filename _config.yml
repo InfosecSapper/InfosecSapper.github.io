@@ -25,10 +25,10 @@ defaults:
     values:
       layout: post
 
-paginate: 5
-paginate_path: "/:num/"
+# paginate: 5
+# paginate_path: "/:num/"
 
-permalink: /:categories/:title
+# permalink: /:categories/:title
 
 name: InfosecSapper.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -56,27 +56,27 @@ collections:
     output: true
     title: Windows Internals
     description: Windows processes, services, authentication and operating system behaviour.
-
+  
   active_directory:
     output: true
     title: Active Directory
     description: Active Directory, Kerberos, delegation, trusts and identity systems.
-
+  
   attack_paths:
     output: true
     title: Attack Paths
     description: Analysis of privilege escalation and compromise paths.
-
+  
   attck:
     output: true
     title: MITRE ATT&CK Research
     description: ATT&CK techniques, mappings and analysis.
-
+  
   detection:
     output: true
     title: Detection Engineering
     description: Detection opportunities, analytics and hunting guidance.
-
+  
   tradecraft:
     output: true
     title: Adversary Tradecraft
