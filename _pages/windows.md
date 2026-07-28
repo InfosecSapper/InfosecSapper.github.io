@@ -1,11 +1,7 @@
 ---
+layout: collection
 title: Windows Components
 permalink: /windows/
-layout: default
+collection_name: windows
+description: Windows processes, services, authentication and operating system behaviour.
 ---
-
-## Processes
-
-- /windows/conhost/
-- /windows/rundll32/
-- /windows/taskhost/

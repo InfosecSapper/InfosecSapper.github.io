@@ -29,27 +29,25 @@ adversary tradecraft and defensive investigations.
         <section>
 
             <h3>
-                {{ collection.title | default: collection.label | replace: "_", " " }}
+                {{ collection.title | default: collection.label | replace: "_", " " }} ({{ collection.docs.size }} article{% if collection.docs.size != 1 %}s{% endif %})
             </h3>
 
             <p>
                 {{ collection.description }}
             </p>
 
-            <p>
-                {{ collection.docs.size }} article{% if collection.docs.size != 1 %}s{% endif %}
-            </p>
-
             {% if collection.docs.size > 0 %}
+            <h3>Recent additions:</h3>
             <ul>
                 {% assign docs = collection.docs | sort: "title" %}
-                {% for doc in docs %}
+                {% for doc in docs limit:3 %}
                 <li>
-                    {{ doc.url }}
+                    <a href="{{ doc.url }}">{{ doc.title }}</a>
                 </li>
                 {% endfor %}
             </ul>
             {% endif %}
+            <p><a href="/{{ collection.label }}/">View all →</a></p>
 
         </section>
 

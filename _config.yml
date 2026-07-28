@@ -80,6 +80,7 @@ collections:
     output: true
     title: Archive
     description: Archived content and research.
+    weight: 70
 
 # Exclude from processing.
 # The following items will not be processed, by default.
