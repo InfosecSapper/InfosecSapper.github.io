@@ -3,20 +3,17 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: InfosecSapper.com
-tagline: InfosecSapper's blog and guides
-description: A blog covering a variety of IT and information security topics.
+tagline: Security knowledge, attack paths, and system behaviour
+description: Technical reference material covering Windows internals, identity systems, attack paths, adversary tradecraft, detection engineering, and security research.
 url: "https://infosecsapper.com"
 author: InfosecSapper
-twitter:
-  username: infosecapper
-  card: summary
 social:
   name: infosecsapper
   links:
-    - https://twitter.com/infosecsapper
     - https://github.com/infosecsapper
     - https://keybase.io/thesapper
     - https://www.reddit.com/user/InfosecSapper
+    - https://www.linkedin.com/in/richardpiccone
 
 defaults:
   - scope:
@@ -38,7 +35,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 lang: en_GB
 
 repository: infosecsapper/infosecsapper.github.io
-twitter_username: infosecsapper
 github_username:  infosecsapper
 
 # Build settings
@@ -53,6 +49,11 @@ plugins:
   - jekyll-sitemap
 
 include: [_pages]
+
+collections:
+  windows:
+    output: true
+    permalink: /windows/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
