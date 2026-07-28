@@ -1,9 +1,51 @@
-<!-- home.html -->
-
 ---
 layout: default
 ---
 
 <h1>InfosecSapper</h1>
 
-{{ content }}
+<p>
+Security research, system behaviour, attack paths,
+adversary tradecraft and defensive investigations.
+</p>
+
+<h2>Knowledge Base</h2>
+
+{% assign excluded = "posts,drafts" | split: "," %}
+
+{% for collection in site.collections %}
+
+    {% unless excluded contains collection.label %}
+
+        <section>
+
+            <h3>
+                {{ collection.title | default: collection.label | replace: "_", " " }}
+            </h3>
+
+            <p>
+                {{ collection.description }}
+            </p>
+
+            <p>
+                {{ collection.docs.size }} article{% if collection.docs.size != 1 %}s{% endif %}
+            </p>
+
+            {% if collection.docs.size > 0 %}
+            <ul>
+                {% assign docs = collection.docs | sort: "title" %}
+                {% for doc in docs %}
+                <li>
+                    {{ doc.url }}
+                        {{ doc.title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+        </section>
+
+    {% endunless %}
+
+{% endfor %}
