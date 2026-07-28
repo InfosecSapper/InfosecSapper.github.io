@@ -46,31 +46,31 @@ plugins:
 include: [_pages]
 
 collections:
-  windows:
+  1_windows:
     output: true
-    title: Windows Internals
+    title: Windows Components
     description: Windows processes, services, authentication and operating system behaviour.
-  active_directory:
+  2_active_directory:
     output: true
     title: Active Directory
     description: Active Directory, Kerberos, delegation, trusts and identity systems.
-  attack_paths:
+  3_attack_paths:
     output: true
     title: Attack Paths
     description: Analysis of privilege escalation and compromise paths.
-  attck:
+  4_attck:
     output: true
     title: MITRE ATT&CK Research
     description: ATT&CK techniques, mappings and analysis.
-  detection:
+  5_detection:
     output: true
     title: Detection Engineering
     description: Detection opportunities, analytics and hunting guidance.
-  tradecraft:
+  6_tradecraft:
     output: true
     title: Adversary Tradecraft
     description: Offensive techniques and operator workflows.
-  archive:
+  7_archive:
     output: true
     title: Archive
     description: Archived content and research.
