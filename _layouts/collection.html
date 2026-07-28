@@ -7,12 +7,11 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p>{{ page.description }}</p>
 <p>{{ collection.size }} article{% if collection.size != 1 %}s{% endif %}</p>
-
 <ul>
-{% assign docs = collection | sort: "title" %}
-{% for doc in docs %}
+    {% assign docs = collection | sort: "title" %}
+    {% for doc in docs %}
     <li>
-        {{ doc.url }}
+        <a href="{{ doc.url }}">{{ doc.title }}</a>
     </li>
 {% endfor %}
 </ul>

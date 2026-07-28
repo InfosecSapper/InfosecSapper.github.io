@@ -2,39 +2,17 @@
 layout: default
 ---
 
-<br><br>
-
 <h1>InfosecSapper</h1>
-
-<br><br>
-
-<p>
-Security research, system behaviour, attack paths,
-adversary tradecraft and defensive investigations.
-</p>
-
-<br><br>
-
+<p>Security research, system behaviour, attack paths, adversary tradecraft and defensive investigations.</p>
 <h2>Knowledge Base</h2>
-
-<br><br>
 
 {% assign excluded = "posts,drafts" | split: "," %}
 {% assign collections = site.collections | sort: "weight" %}
-
 {% for collection in collections %}
-
     {% unless excluded contains collection.label %}
-
         <section>
-
-            <h3>
-                {{ collection.title | default: collection.label | replace: "_", " " }} ({{ collection.docs.size }} article{% if collection.docs.size != 1 %}s{% endif %})
-            </h3>
-
-            <p>
-                {{ collection.description }}
-            </p>
+            <h3>{{ collection.title | default: collection.label | replace: "_", " " }} ({{ collection.docs.size }} article{% if collection.docs.size != 1 %}s{% endif %})</h3>
+            <p>{{ collection.description }}</p>
 
             {% if collection.docs.size > 0 %}
             <h3>Recent additions:</h3>
@@ -48,11 +26,7 @@ adversary tradecraft and defensive investigations.
             </ul>
             {% endif %}
             <p><a href="/{{ collection.label }}/">View all →</a></p>
-
         </section>
-
-        <br><br>
-
+    
     {% endunless %}
-
 {% endfor %}
