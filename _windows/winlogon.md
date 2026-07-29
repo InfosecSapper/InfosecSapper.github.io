@@ -2,6 +2,7 @@
 title: winlogon.exe
 layout: post
 permalink: /windows/winlogon/
+group: Processes
 ---
 
 ## Overview

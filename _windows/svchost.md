@@ -2,6 +2,7 @@
 title: svchost.exe
 layout: post
 permalink: /windows/svchost/
+group: Processes
 ---
 
 ## Overview

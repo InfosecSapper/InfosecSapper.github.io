@@ -2,6 +2,7 @@
 title: rundll32.exe
 layout: post
 permalink: /windows/rundll32/
+group: Processes
 ---
 
 ## Overview

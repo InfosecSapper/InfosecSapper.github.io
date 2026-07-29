@@ -2,6 +2,7 @@
 title: lsass.exe
 layout: post
 permalink: /windows/lsass/
+group: Processes
 ---
 
 ## Overview
