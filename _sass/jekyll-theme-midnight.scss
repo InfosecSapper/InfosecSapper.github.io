@@ -501,6 +501,35 @@
         } // End of main
       } // End of body
     } // End of html
+    :root {
+  --pagefind-ui-background: #252525;
+  --pagefind-ui-text: #f0e7d5;
+  --pagefind-ui-border: #434343;
+
+  --pagefind-ui-primary: #ffcc00;
+  --pagefind-ui-tag: #353535;
+
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 2px;
+
+  --pagefind-ui-font: "OpenSansLight", Helvetica, Arial, sans-serif;
+}
+pagefind-results {
+
+  mark {
+    background: #ffcc00;
+    color: #252525;
+  }
+
+  .pf-heading-chip {
+    border-left: 3px solid #434343;
+    padding-left: 1rem;
+  }
+
+  .pf-summary {
+    color: #e8e8e8;
+  }
+}
   }
 } // End of screen settings
 
