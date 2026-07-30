@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../webfonts/OpenSans-Light-webfont.woff")
+       format("woff");
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+
+  background: $main-background;
+  color: $main-text;
+  font: $main-font;
+}

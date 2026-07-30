@@ -1,0 +1,43 @@
+h1 {
+  margin: 0 0 3vw;
+  color: $header-text;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+h2 {
+  margin: 0 0 3vw;
+  color: $header-text;
+  font-size: 1.5em;
+}
+
+h3 {
+  margin: 0 0 1vw;
+  color: $header-text;
+  font-size: 1.25em;
+}
+
+h4,
+h5,
+h6 {
+  display: inline;
+  color: $header-text;
+}
+
+p,
+ul,
+ol,
+table,
+pre,
+dl {
+  margin-bottom: 20px;
+}
+
+a {
+  color: $link-text;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover;
+  }
+}

@@ -1,0 +1,35 @@
+:root {
+  --pagefind-ui-background: #252525;
+  --pagefind-ui-text: #f0e7d5;
+  --pagefind-ui-border: #434343;
+
+  --pagefind-ui-primary: #ffcc00;
+  --pagefind-ui-tag: #353535;
+
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 2px;
+
+  --pagefind-ui-font:
+    "OpenSansLight",
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+pagefind-input,
+pagefind-summary,
+pagefind-results {
+  display: block;
+  width: 100%;
+}
+mark {
+  background: #ffcc00;
+  color: #252525;
+}
+.pf-heading-chip {
+  border-left: 3px solid $main-border;
+  padding-left: 1rem;
+}
+.search-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
