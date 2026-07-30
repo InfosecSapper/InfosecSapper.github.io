@@ -42,7 +42,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build Pagefind index
-        run: RUST_BACKTRACE=full npx pagefind --site _site
+        run: npx pagefind --site _site --output-path pagefind
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
