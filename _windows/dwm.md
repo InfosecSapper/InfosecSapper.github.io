@@ -23,7 +23,7 @@ It is responsible for:
 
 Modern versions of Windows rely on Desktop Window Manager to render the graphical desktop experience.
 
-Unlike many Windows processes that perform discrete actions and terminate, dwm.exe normally persists for the duration of an interactive user session. 【1-796554】
+Unlike many Windows processes that perform discrete actions and terminate, dwm.exe normally persists for the duration of an interactive user session.
 
 ### Expected Characteristics
 
@@ -61,7 +61,7 @@ Because most analysts and users recognise the process name, attackers sometimes 
 
 or place fake dwm.exe binaries outside the Windows directory.
 
-The hope is that a casual review will overlook the difference. 【1-796554】
+The hope is that a casual review will overlook the difference.
 
 ### Process Injection
 
@@ -190,7 +190,7 @@ Examples include:
 
     dwm_.exe
 
-These frequently indicate masquerading. 【1-796554】
+These frequently indicate masquerading.
 
 ### Unexpected Parent Process
 
@@ -228,7 +228,7 @@ Investigate immediately if dwm.exe launches:
 
     unsigned executables
 
-Any child process should be regarded as a high-fidelity indicator. 【1-796554】
+Any child process should be regarded as a high-fidelity indicator.
 
 ### DLL Injection
 

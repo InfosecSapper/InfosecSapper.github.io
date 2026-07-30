@@ -13,7 +13,7 @@ wuauclt.exe is the Windows Update Client.
 
 Historically, it was responsible for coordinating update detection, update downloads, update installation, and communication with Windows Update infrastructure on behalf of the Windows Update service.
 
-In modern versions of Windows, its role has been reduced significantly, with much of the update orchestration functionality moving elsewhere within the Windows Update ecosystem. Nevertheless, wuauclt.exe still appears during certain servicing workflows and remains a recognised Windows component. 【1-822c76】
+In modern versions of Windows, its role has been reduced significantly, with much of the update orchestration functionality moving elsewhere within the Windows Update ecosystem. Nevertheless, wuauclt.exe still appears during certain servicing workflows and remains a recognised Windows component.
 
 ### Expected Characteristics
 
@@ -47,7 +47,7 @@ Although wuauclt.exe is a legitimate Microsoft binary, it occasionally appears i
 - Hide malicious activity within servicing workflows
 - Blend into normal operating-system behaviour
 
-As with many trusted Windows binaries, the value of a wuauclt.exe investigation usually comes from understanding its context rather than the process itself. 【1-822c76】
+As with many trusted Windows binaries, the value of a wuauclt.exe investigation usually comes from understanding its context rather than the process itself.
 
 ### Common Investigation Scenarios
 
@@ -98,7 +98,7 @@ Normally:
 - None
 - Very limited process creation
 
-wuauclt.exe is not expected to function as a general-purpose process launcher. 【1-822c76】
+wuauclt.exe is not expected to function as a general-purpose process launcher.
 
 #### Lifetime
 
@@ -154,7 +154,7 @@ Examples include:
 
     wuauclt64.exe
 
-Masquerading remains the most common reason wuauclt.exe appears during investigations. 【1-822c76】
+Masquerading remains the most common reason wuauclt.exe appears during investigations.
 
 ### Suspicious Parent Processes
 
@@ -192,7 +192,7 @@ Investigate immediately if wuauclt.exe launches:
 
     unsigned executables
 
-Such behaviour often indicates an attempt to hide activity behind a trusted process name. 【1-822c76】
+Such behaviour often indicates an attempt to hide activity behind a trusted process name.
 
 ### Suspicious Command-Line Usage
 

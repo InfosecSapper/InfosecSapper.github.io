@@ -16,7 +16,7 @@ It is responsible for initialising critical system processes and user-mode servi
 - services.exe
 - lsass.exe
 
-After spawning these processes, wininit.exe remains present for system uptime but typically performs no ongoing visible orchestration. 【1-9bf655】
+After spawning these processes, wininit.exe remains present for system uptime but typically performs no ongoing visible orchestration.
 
 ### Expected Characteristics
 
@@ -124,7 +124,7 @@ Investigate immediately if:
 - The image is unsigned
 - PE metadata differs from Microsoft's expected values
 
-Any wininit.exe instance outside System32 should be considered malicious until proven otherwise. 【1-9bf655】
+Any wininit.exe instance outside System32 should be considered malicious until proven otherwise.
 
 ### Unexpected Parent Process
 

@@ -140,7 +140,7 @@ Investigate scripts launched from:
 - Downloads
 - Network shares
 
-Most malicious WSH activity originates from user-controlled or transient locations. 【1-52245b】
+Most malicious WSH activity originates from user-controlled or transient locations.
 
 ### Unexpected Parent Processes
 

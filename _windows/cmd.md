@@ -20,7 +20,7 @@ It provides a command-line interface for:
 - Automating administrative tasks
 - Chaining execution between Windows utilities
 
-It is one of the oldest and most widely-used Windows components and remains heavily utilised by administrators, installers, enterprise tooling, and attackers. 【1-6b6bcd】
+It is one of the oldest and most widely-used Windows components and remains heavily utilised by administrators, installers, enterprise tooling, and attackers.
 
 ### Expected Characteristics
 
@@ -62,7 +62,7 @@ Attackers frequently use it because it provides a simple way to:
 - Execute remote actions
 - Establish persistence
 
-Unlike some Windows binaries that have very narrow use cases, cmd.exe is so common that context becomes more important than process existence. 【1-6b6bcd】
+Unlike some Windows binaries that have very narrow use cases, cmd.exe is so common that context becomes more important than process existence.
 
 ### Common Investigation Scenarios
 
@@ -167,7 +167,7 @@ Investigate cmd.exe launched by:
 - dllhost.exe
 - Unknown executables
 
-These parent-child relationships frequently appear during malware delivery and phishing campaigns. 【1-6b6bcd】
+These parent-child relationships frequently appear during malware delivery and phishing campaigns.
 
 ### LOLBin Chaining
 
@@ -193,7 +193,7 @@ Investigate cmd.exe launching:
 
     curl.exe
 
-While legitimate uses exist, extensive chaining often indicates malicious execution. 【1-6b6bcd】
+While legitimate uses exist, extensive chaining often indicates malicious execution.
 
 ### Obfuscated Command Lines
 
@@ -219,7 +219,7 @@ Examples include:
 
     >>
 
-Complexity alone is not malicious, but unusual complexity should increase investigative priority. 【1-6b6bcd】
+Complexity alone is not malicious, but unusual complexity should increase investigative priority.
 
 ### User-Writable Execution Paths
 

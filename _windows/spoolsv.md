@@ -20,7 +20,7 @@ It is responsible for:
 - Communicating with print servers
 - Managing printer configuration
 
-The service runs under the LocalSystem account and is typically present on most Windows systems, regardless of whether they are actively used for printing. 【1-ff5942】
+The service runs under the LocalSystem account and is typically present on most Windows systems, regardless of whether they are actively used for printing.
 
 ### Expected Characteristics
 
@@ -57,7 +57,7 @@ Notable classes of weakness have included:
 - Driver-loading abuse
 - Authentication relay attacks
 
-The most widely publicised examples were the various PrintNightmare vulnerability chains, which demonstrated how a trusted Windows service could be abused to execute attacker-controlled code. 【1-ff5942】
+The most widely publicised examples were the various PrintNightmare vulnerability chains, which demonstrated how a trusted Windows service could be abused to execute attacker-controlled code.
 
 ### Unexpected Process Creation
 
@@ -83,7 +83,7 @@ Examples include:
 
     certutil.exe
 
-These relationships are rarely legitimate. 【1-ff5942】
+These relationships are rarely legitimate.
 
 ### Driver Loading Activity
 
@@ -196,7 +196,7 @@ Investigate immediately if spoolsv.exe launches:
 
     unsigned executables
 
-Attackers frequently leverage privileged services to launch follow-on payloads. 【1-ff5942】
+Attackers frequently leverage privileged services to launch follow-on payloads.
 
 ### Path or Signature Mismatch
 

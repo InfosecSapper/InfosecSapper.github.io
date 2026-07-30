@@ -173,7 +173,7 @@ Investigate task actions referencing:
 - User profile paths
 - Network shares
 
-Particular attention should be paid to newly-created files and low-prevalence binaries. 【1-6d81c5】
+Particular attention should be paid to newly-created files and low-prevalence binaries.
 
 ### Misleading Task Names
 
@@ -266,7 +266,7 @@ Investigate schtasks.exe launched by:
 - wscript.exe
 - Unknown executables
 
-These relationships frequently indicate staged execution or phishing activity. 【1-6d81c5】
+These relationships frequently indicate staged execution or phishing activity.
 
 ## Detection Opportunities
 

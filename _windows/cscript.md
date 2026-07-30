@@ -17,7 +17,7 @@ It executes script files including:
 - JScript (.js, .jse)
 - Windows Script Files (.wsf)
 
-Unlike wscript.exe, which executes scripts in a graphical environment, cscript.exe executes them within a console session. This makes it more suitable for automation, scheduled tasks, deployment workflows, and administrative scripting. 【1-60ec38】
+Unlike wscript.exe, which executes scripts in a graphical environment, cscript.exe executes them within a console session. This makes it more suitable for automation, scheduled tasks, deployment workflows, and administrative scripting.
 
 ### Expected Characteristics
 
@@ -60,7 +60,7 @@ Common malicious uses include:
 - Persistence mechanisms
 - Fileless execution
 
-Because cscript.exe is a legitimate Windows binary, malicious activity can easily blend into normal administrative operations. 【1-60ec38】
+Because cscript.exe is a legitimate Windows binary, malicious activity can easily blend into normal administrative operations.
 
 ### Investigation Objective
 
@@ -146,7 +146,7 @@ Investigate scripts executed from:
 - Network shares
 - Recently-created directories
 
-User-writeable locations are commonly used by malware and phishing payloads. 【1-60ec38】
+User-writeable locations are commonly used by malware and phishing payloads.
 
 ### Suspicious Parent Processes
 

@@ -20,7 +20,7 @@ Any process that queries:
 - Networking
 - Performance counters
 
-may interact with WMI behind the scenes, causing wmiprvse.exe to appear. 【1-63fa46】
+may interact with WMI behind the scenes, causing wmiprvse.exe to appear.
 
 ### Expected Characteristics
 
@@ -75,7 +75,7 @@ The most important questions are:
 
 - Who initiated the WMI activity?
 - What query was executed?
-- What was the objective? 【1-63fa46】
+- What was the objective?
 
 ### Investigation Objective
 

@@ -20,7 +20,7 @@ The service is responsible for:
 - Updating protected operating system files
 - Managing the Windows Component Store (WinSxS)
 
-Unlike most Windows services, TrustedInstaller operates using the highly privileged **TrustedInstaller** security context, which is granted access to many operating-system resources that even local administrators cannot modify directly. 【1-a31a38】
+Unlike most Windows services, TrustedInstaller operates using the highly privileged **TrustedInstaller** security context, which is granted access to many operating-system resources that even local administrators cannot modify directly.
 
 ### Expected Characteristics
 
@@ -58,7 +58,7 @@ It has the authority to:
 - Service the Component Store
 - Modify critical operating-system resources
 
-As a result, any compromise, abuse, or imitation of TrustedInstaller activity should be treated as a high-priority event. 【1-a31a38】
+As a result, any compromise, abuse, or imitation of TrustedInstaller activity should be treated as a high-priority event.
 
 ### Common Investigation Scenarios
 
@@ -108,7 +108,7 @@ Usually:
 
 - None
 
-The service may indirectly initiate servicing operations, but it should not behave as a general-purpose process launcher. 【1-a31a38】
+The service may indirectly initiate servicing operations, but it should not behave as a general-purpose process launcher.
 
 #### Lifetime
 
@@ -164,7 +164,7 @@ Examples include:
 
     trustedinstaller_.exe
 
-Masquerading using well-known Windows service names is a common attacker technique. 【1-a31a38】
+Masquerading using well-known Windows service names is a common attacker technique.
 
 ### Unexpected Parent Process
 
@@ -201,7 +201,7 @@ Investigate immediately if trustedinstaller.exe launches:
 
     unsigned executables
 
-Any such child process should be treated as a high-confidence indicator of malicious behaviour. 【1-a31a38】
+Any such child process should be treated as a high-confidence indicator of malicious behaviour.
 
 ### Service Configuration Tampering
 
@@ -233,7 +233,7 @@ Investigate:
 - Repeated crashes
 - Repeated service restarts
 
-TrustedInstaller should generally correlate with update or servicing events. 【1-a31a38】
+TrustedInstaller should generally correlate with update or servicing events.
 
 ### Component Store Tampering
 
