@@ -1,5 +1,7 @@
 ---
 layout: search
-title: Search
+title: Search the Knowledge Base
 permalink: /search/
 ---
+
+Search through the content of InfosecSapper.com.
