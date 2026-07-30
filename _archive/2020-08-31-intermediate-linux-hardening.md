@@ -1,5 +1,6 @@
 ---
 title: Intermediate Linux Hardening
+layout: post
 category: Guides
 date: 2020-08-31
 modified: 2020-08-31

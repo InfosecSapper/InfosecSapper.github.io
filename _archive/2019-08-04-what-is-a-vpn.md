@@ -1,5 +1,6 @@
 ---
 title: What is a VPN
+layout: post
 category: Definitions
 date: 2019-08-04
 modified: 2019-08-04

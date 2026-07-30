@@ -1,5 +1,6 @@
 ---
 title: Basic Linux Hardening
+layout: post
 category: Guides
 date: 2020-08-30
 modified: 2020-08-30

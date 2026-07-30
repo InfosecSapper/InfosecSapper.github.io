@@ -1,5 +1,6 @@
 ---
 title: Initial Linux Hardening
+layout: post
 category: Guides
 date: 2020-08-29
 modified: 2020-08-29
