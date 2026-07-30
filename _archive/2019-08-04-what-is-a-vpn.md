@@ -1,6 +1,8 @@
 ---
 title: What is a VPN
 category: Definitions
+date: 2019-08-04
+modified: 2019-08-04
 ---
 
 If you've heard the term "VPN" but you're not sure what it is or why it matters, you're in the right place. This quick post will give you the run-down on what VPNs are, how they work and what you might use them for.

@@ -1,6 +1,8 @@
 ---
 title: Basic Linux Hardening
 category: Guides
+date: 2020-08-30
+modified: 2020-08-30
 ---
 
 This guide follows on from the [Initial Linux hardening](https://infosecsapper.com/guides/initial-linux-hardening "Initial Linux Hardening") guide and will cover the basic steps to take to harden Linux after you've completed the initial installation and established secure access.

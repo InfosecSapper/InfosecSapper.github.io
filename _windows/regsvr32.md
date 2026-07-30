@@ -2,6 +2,8 @@
 title: regsvr32.exe
 layout: post
 permalink: /windows/regsvr32/
+date: 2025-07-01
+modified: 2026-07-29
 group: Processes
 ---
 

@@ -2,6 +2,8 @@
 title: powershell.exe
 layout: post
 permalink: /windows/powershell/
+date: 2025-07-01
+modified: 2026-07-29
 group: Processes
 ---
 

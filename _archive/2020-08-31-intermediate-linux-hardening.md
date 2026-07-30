@@ -1,6 +1,8 @@
 ---
 title: Intermediate Linux Hardening
 category: Guides
+date: 2020-08-31
+modified: 2020-08-31
 ---
 
 This guide follows on from the [Basic Linux hardening](https://infosecsapper.com/guides/basic-linux-hardening "Basic Linux Hardening") guide and will cover more intermediate steps you can take to increase the security of your Linux installation.

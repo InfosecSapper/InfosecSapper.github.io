@@ -2,6 +2,8 @@
 title: lsass.exe
 layout: post
 permalink: /windows/lsass/
+date: 2025-07-01
+modified: 2026-07-29
 group: Processes
 ---
 

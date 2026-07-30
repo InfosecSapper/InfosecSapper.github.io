@@ -1,6 +1,8 @@
 ---
 title: Initial Linux Hardening
 category: Guides
+date: 2020-08-29
+modified: 2020-08-29
 ---
 
 This guide will cover the initial steps to take towards hardening a Linux installation in order to prepare it for further use in a typical IT network.
