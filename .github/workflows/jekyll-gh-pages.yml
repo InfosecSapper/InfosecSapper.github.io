@@ -43,10 +43,14 @@ jobs:
         run: npm install
       - name: Build Pagefind index
         run: npx pagefind --site _site --output-path pagefind
-      - name: Copy Pagefind files
-        run: cp -r pagefind _site/
+      - name: Create deployment directory
+        run: |
+          cp -r _site deploy
+          cp -r pagefind deploy/pagefind
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: deploy
 
   # Deployment job
   deploy:
