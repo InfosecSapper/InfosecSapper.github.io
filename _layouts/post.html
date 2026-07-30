@@ -23,14 +23,6 @@ layout: default
           <li><a href="{{ '/feed.xml' | relative_url }}" title="Subscribe via RSS" aria-label="Subscribe via RSS" class="fas fa-rss fa-2x"></a></li>
         </ul>
       </section>
-      <section class="related" aria-label="Related posts">
-        <h3>You might also like:</h3>
-        <ul>
-          {% for post in site.related_posts limit:3 %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </section>
 </aside>
 
 <div class="scroll-top">
